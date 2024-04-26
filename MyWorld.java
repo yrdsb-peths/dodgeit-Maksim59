@@ -10,7 +10,7 @@ public class MyWorld extends World
         super(600, 400, 1); 
         Hero hero = new Hero();
         addObject(hero,50,100);
-        
+        showText("DODGE IT", 300, 20);
         Banana banana = new Banana();
         addObject(banana, 700, 100);
     }
