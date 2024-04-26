@@ -7,7 +7,7 @@ public class Hero extends Actor
     {
         if(Greenfoot.mouseClicked(null))
         {
-            
+            atTop = !atTop;
         }
         if (atTop)
         {
