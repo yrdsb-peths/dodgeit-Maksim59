@@ -8,7 +8,7 @@ public class Banana extends Actor
         move(-15);
         if(getX() <= 0)
         {
-            resetBanana();
+            
         }
         if(isTouching(Hero.class))
         {
