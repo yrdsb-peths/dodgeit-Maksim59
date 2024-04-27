@@ -22,7 +22,7 @@ public class Banana extends Actor
         int num = Greenfoot.getRandomNumber(2);
         if(num == 0)
         {
-            setLocation(600,100);
+            setLocation(500,100);
         }
         else
         {
